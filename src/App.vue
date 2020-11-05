@@ -76,11 +76,6 @@ export default {
           label: "Contact",
           url: "/contact",
         },
-
-        // {
-        //   label: "About",
-        //   url: "/about"
-        // }
       ],
     };
   },
