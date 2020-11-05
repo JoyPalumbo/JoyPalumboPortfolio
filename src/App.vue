@@ -61,30 +61,30 @@ export default {
       links: [
         {
           label: "Home",
-          url: "/"
+          url: "/",
         },
 
         {
           label: "Portfolio",
-          url: "/portfolio"
+          url: "/portfolio",
         },
         {
           label: "Resume",
-          url: "/resume"
+          url: "/resume",
         },
         {
           label: "Contact",
-          url: "/contact"
-        }
+          url: "/contact",
+        },
 
         // {
         //   label: "About",
         //   url: "/about"
         // }
-      ]
+      ],
     };
   },
-  methods: {}
+  methods: {},
 };
 </script>
 
