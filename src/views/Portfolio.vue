@@ -70,10 +70,10 @@
       </v-row>
 
       <!-- New Card -->
-      <v-row class="mb-6" no-gutters>
+      <!-- <v-row class="mb-6" no-gutters>
         <v-col md="6" offset-md="3">
           <v-card class="mx-auto" max-width="700">
-            <v-row>
+            <v-row> -->
 
             <!-- <v-row> -->
               <!-- <v-col class="ma-3" md="3" cols="2"> -->
@@ -84,7 +84,7 @@
                   src="../assets/diveBandGig.png"
                 ></v-img> -->
               <!-- </v-col> -->
-              <v-col class="blue-grey--text text--darken-2">
+              <!-- <v-col class="blue-grey--text text--darken-2">
                 <v-card-text>
                   <h1>Trivia App</h1>
                   <v-spacer class="ma-2"></v-spacer>
@@ -105,7 +105,7 @@
                   questions.</h3>
                 </v-card-text>
               </v-col>
-            </v-row>
+            </v-row> -->
 
 
               <!-- <v-card-text>
@@ -152,9 +152,9 @@
             <!-- </v-card-text> -->
             <!-- </v-col> -->
             <!-- </v-row> -->
-            <v-row>
+            <!-- <v-row> -->
               <!-- <v-col> -->
-              <v-card-text>
+              <!-- <v-card-text>
                 <h4>Tech Stack</h4>
               </v-card-text>
             </v-row>
@@ -203,7 +203,7 @@
             </v-row>
           </v-card>
         </v-col>
-      </v-row>
+      </v-row> -->
 
      <v-spacer class="ma-6"></v-spacer>
       <!-- First Card -->
