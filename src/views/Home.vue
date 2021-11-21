@@ -94,7 +94,7 @@ export default {
 .text-box {
   position: absolute;
   top: 45%;
-  left: 30%;
+  left: 25%;
   transform: translate(-15%, -50%);
 }
 
@@ -103,18 +103,24 @@ export default {
 @media screen and (min-width: 601px) {
   .heading-primary-main {
     font-size: 80px;
+    
   }
     .heading-primary-sub {
     font-size: 50px;
+    /* margin-left */
   }
 }
 
 @media screen and (max-width: 600px) {
   .heading-primary-main {
     font-size: 30px;
+   
   }
     .heading-primary-sub {
     font-size: 18px;
+  }
+  .text-box {
+    left: 20%
   }
 }
 </style>
