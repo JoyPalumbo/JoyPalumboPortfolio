@@ -1,7 +1,7 @@
 <template>
   <div class="portfolio">
     <v-containter>
-      <h4 class="deep-purple--text text--lighten-3">
+      <h4 class="deep-purple--text text--lighten-3 pa-2">
         “Learning is a treasure that will follow its owner everywhere.” —
         Chinese Proverb
       </h4>

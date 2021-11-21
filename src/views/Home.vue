@@ -13,7 +13,7 @@
         <v-row>
           <v-col class="blue-grey--text text--darken-2">
             <spacer class="ma-2"></spacer>
-            <h4 class="deep-purple--text text--lighten-3">
+            <h4 class="deep-purple--text text--lighten-3 pa-2">
               “Live as if you were to die tomorrow. Learn as if you were to live
               forever.” — Mahatma Gandhi
             </h4>
