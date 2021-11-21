@@ -72,15 +72,17 @@ export default {
 .heading-primary-main {
   display: block;
   font-size: 50px;
-  font-weight: 700;
-  letter-spacing: 20px;
+  /* font-weight: 700; */
+  letter-spacing: 18px;
+  /* margin-bottom: 5px; */
 }
 
 .heading-primary-sub {
   display: block;
   font-size: 20px;
-  font-size: 700;
-  letter-spacing: 20px;
+  margin-top: 5px;
+  /* font-weight: 700; */
+  letter-spacing: 18px;
 }
 
 .logo-box {
@@ -94,5 +96,25 @@ export default {
   top: 45%;
   left: 30%;
   transform: translate(-15%, -50%);
+}
+
+
+
+@media screen and (min-width: 601px) {
+  .heading-primary-main {
+    font-size: 80px;
+  }
+    .heading-primary-sub {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .heading-primary-main {
+    font-size: 30px;
+  }
+    .heading-primary-sub {
+    font-size: 18px;
+  }
 }
 </style>
