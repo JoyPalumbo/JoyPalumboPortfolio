@@ -120,7 +120,7 @@ export default {
     font-size: 18px;
   }
   .text-box {
-    left: 20%
+    left: 25%
   }
 }
 </style>

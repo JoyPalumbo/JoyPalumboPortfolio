@@ -1,19 +1,26 @@
 <template>
   <v-app>
+     
     <v-app-bar app color="#CE93D8" dark>
-      <h2>Joy Palumbo</h2>
-      <v-spacer></v-spacer>
+      <v-layout justify-center wrap>
+      <!-- <h4 class="ml-1">Joy Palumbo</h4> -->
+      <!-- <v-spacer></v-spacer> -->
 
       <v-btn
         v-for="link in links"
         :key="`${link.label}-header-link`"
-        text
+         large
+  small
+  text
+   class="pt-1"
         rounded
         :to="link.url"
       >
         {{ link.label }}
       </v-btn>
+        </v-layout> 
     </v-app-bar>
+ 
     <v-content>
       <spacer class="ma-1"></spacer>
       <router-view></router-view>
@@ -33,7 +40,7 @@
           color="white"
           text
           rounded
-          class="my-2"
+        class="my-2"
           :to="link.url"
         >
           {{ link.label }}
