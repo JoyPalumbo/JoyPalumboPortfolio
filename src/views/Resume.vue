@@ -26,7 +26,7 @@
     </v-row>
     <v-row>
       <v-col cols="2">
-        <h4 class="blue-grey--text text--darken-1">Technical Skills:</h4>
+        <h4 class="blue-grey--text text--darken-1 pl-2">Technical Skills:</h4>
       </v-col>
       <v-col cols="9">
         <h5 class="blue-grey--text text--darken-1">
@@ -36,7 +36,7 @@
         </h5>
       </v-col>
     </v-row>
-    <v-spacer class="ma-2"></v-spacer>
+    <v-spacer class="ma-1"></v-spacer>
     <v-row>
       <v-col cols="1"></v-col>
       <v-col cols="10">
@@ -202,6 +202,39 @@
       </v-col>
     </v-row>
 
+      <v-row>
+      <v-col cols="2">
+        <h4 class="blue--text text--lighten-1">Pacorini</h4>
+      </v-col>
+      <v-col cols="2">
+        <h5 class="deep-purple--text text--lighten-3">
+          Software Engineer/IT specialist
+        </h5>
+      </v-col>
+      <v-col cols="6">
+        <h5 class="deep-purple--text text--lighten-3 text-sm-right">
+          November 2020 - Current
+        </h5>
+      </v-col>
+      <v-row>
+        <v-col cols="2"></v-col>
+        <v-col cols="10">
+          <li class="text-sm-left">
+            Build APIs in Python to exchange data with Clients
+          </li>
+          <li class="text-sm-left">
+            Manage SQL Server database
+          </li>
+          <li class="text-sm-left">
+            Fix data errors
+          </li>
+            <li class="text-sm-left">
+            Assist employees with technical issues
+          </li>
+        </v-col>
+      </v-row>
+    </v-row>
+
     <v-row>
       <v-col cols="2">
         <h4 class="blue--text text--lighten-1">Velocity</h4>
@@ -360,3 +393,34 @@
     </v-row>
   </v-containter>
 </template>
+
+
+<style>
+@media screen and (min-width: 601px) {
+  h4 {
+    font-size: 18px;
+    /* margin-left */
+  }
+  h5{
+    font-size: 12px;
+    
+  }
+
+  li {
+    font-size: 10
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h4 {
+    font-size: 14px;
+   
+  }
+    h5 {
+    font-size: 8px;
+  }
+  li {
+    font-size: 6px
+  }
+}
+</style>
