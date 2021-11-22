@@ -102,11 +102,11 @@ export default {
 
 @media screen and (min-width: 601px) {
   .heading-primary-main {
-    font-size: 80px;
+    font-size: 65px;
     
   }
     .heading-primary-sub {
-    font-size: 50px;
+    font-size: 45px;
     /* margin-left */
   }
 }

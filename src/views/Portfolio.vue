@@ -284,6 +284,97 @@
                   </a>
                 </div>
               </v-col>
+                     <v-row align="center">
+              <v-col>
+                <div style="font-size: 1rem;">
+                  <a
+                    class="btn btn-large btn-primary logout"
+                    href=" https://joys-trivia-app.netlify.app/"
+                  >
+                  <i class="fa fa-link">
+                      Joy's Trivie App</i>
+                  </a>
+                </div>
+              </v-col>
+            </v-row>
+             
+            </v-row>
+          </v-card>
+        </v-col>
+      </v-row>
+
+<v-spacer class="ma-6"></v-spacer>
+      <!-- First Card -->
+      <v-row class="mb-7" no-gutters>
+        <v-col md="6" offset-md="3">
+          <v-card class="mx-auto" max-width="700">
+            <v-row>
+              <!-- <v-col class="ma-3" md="3" cols="2"> -->
+                <!-- <v-img
+                  class="rounded"
+                  max-height="350"
+                  max-width="100"
+                  src="../assets/diveBandGig.png"
+                ></v-img> -->
+              <!-- </v-col> -->
+              <v-col class="blue-grey--text text--darken-2">
+                <v-card-text>
+                  <h1>New Orleans Archery Club Webpage</h1>
+                  <v-spacer class="ma-2"></v-spacer>
+                  <h3>
+                    My local archery club had a very outdated, unstylized webpage. I volunteered to 
+                    create this webpage so that the archery club could provide useful to current append
+                    prospective members. Members can also download documents and forms needed to participate.
+                    I included a photo gallery to display photos of members during practice. To help members get up-to-date 
+                    information on the status of each club practice, I also included the Nola Archery Club's
+                    twitter and Facebook feed, using the respective APIs.
+                    <v-card>
+                      <v-card-media src="src" height="200px">
+                      </v-card-media>
+                      <!-- <v-card-title primary-title>
+                        <div>
+                          <h3 class="headline mb-0">headline</h3>
+                          <div>description</div>
+                        </div>
+                      </v-card-title> -->
+                      <!-- <v-card-actions>
+                        <v-btn flat color="primary">text</v-btn>
+                        <v-btn flat color="primary">text</v-btn>
+                      </v-card-actions> -->
+                    </v-card>
+                  </h3>
+                </v-card-text>
+              </v-col>
+            </v-row>
+            <h4>Tech Stack</h4>
+            <v-row>
+              <v-col cols="2"></v-col>
+              <v-col cols="5">
+                <v-list class="pa-md-4 mx-lg-auto">
+                  <li class="text-sm-left">Vue</li>
+                  <li class="text-sm-left">Vuetify</li>
+                  <li class="text-sm-left">Deployed on Netfliy</li>
+                </v-list>
+              </v-col>
+              <v-col cols="5">
+                <v-list class="pa-md-4 mx-lg-auto">
+                  <li class="text-sm-left">Twitter and Facebook APIs</li>
+                  <li class="text-sm-left">Axios</li>
+                </v-list>
+              </v-col>
+            </v-row>
+          <v-row align="center">
+              <v-col>
+                <div style="font-size: 1rem;">
+                  <a
+                    class="btn btn-large btn-primary logout"
+                    href="https://neworleansarcheryclub.netlify.app/#/"
+                  >
+                  <i class="fa fa-link">
+                      NOLA Archery Club Webpage</i>
+                  </a>
+                </div>
+              </v-col>
             </v-row>
           </v-card>
         </v-col>
@@ -298,3 +389,5 @@
     </v-containter>
   </div>
 </template>
+
+
