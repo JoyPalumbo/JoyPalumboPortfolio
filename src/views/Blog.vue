@@ -1,7 +1,14 @@
 <template>
   <div class="about">
     <h1>Joy's Dev.to Blog Posts</h1> 
-     <v-spacer class="ma-2"></v-spacer>
+     <v-spacer class="ma-3"></v-spacer>
+     <h4>This blog was created when I started school.  As part of our schoolwork we were required to write a blog post every week.  This was to be done outside our 11 school day.
+     Due to lack of time, I didn't put much effort into these blog posts.  
+     
+     I have decided to start blogging again, but this time as a way to study topics I find difficult.  I will study the topics enough that I can write a blog post about that topic.
+     I may through in some fun topics here and there but I will mainly use the blog to force myself to study hard-to-understand topics. 
+     </h4>
+       <v-spacer class="ma-2"></v-spacer>
     <h4 >The blog posts are pretty old, back from when I was in school in 2019. 
       <br>
       But stay tuned, I will be adding new blog posts soon!
