@@ -60,10 +60,13 @@
 
 <script>
 import { mdiAccount } from "@mdi/js";
+import axios from 'axios';
 export default {
   name: "App",
   data() {
     return {
+      data: {},
+      username: 'joypalumbo',
       svgPath: mdiAccount,
       links: [
         {
@@ -83,10 +86,39 @@ export default {
           label: "Contact",
           url: "/contact",
         },
+                {
+          label: "Blog",
+          url: "/blog",
+          props: true
+        }
       ],
     };
   },
-  methods: {},
+  mounted(){
+  axios.get(`https://dev.to/api/articles?username=${this.username}`)
+    .then(res => {
+      this.data = res.data
+      console.log("data", res.data)
+      this.$router.push({name: "Blog", params: {data: this.data}})
+    })
+    .catch(err => {
+      console.log(err)
+    })
+    // .finally(() => )
+  }
+  
+  // methods: {
+  //   getData(){
+
+  //   let data = this
+  //   // axios.get(`https://dev.to/api/articles?username={$username}`)
+  //   // try {
+  //    const response =  axios.get('https://dev.to/api/articles?username=joypalumbo')
+  //    console.log("data", response.data.description)
+  //    this.data = response.data
+  //    console.log("data",data)
+  //   }
+  // }
 };
 </script>
 
