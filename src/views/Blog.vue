@@ -1,92 +1,54 @@
 <template>
   <div class="about">
-    <h1>Blog</h1>
-    <ul id="blog">
+    <h1>Joy's Dev.to Blog Posts</h1> 
+     <!-- <v-spacer></v-spacer> -->
+    
+    <ul class="blog">
 
 
      
   <li v-for="blog in posts" :key="blog.id">
-     <v-card elevation="2" class="mx-auto pa-1"
-    max-width="380">
-      <v-img
-      src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
-      height="150px"
-    ></v-img>
-      <v-card-title>
+  
+     <v-card elevation="2" class="mx-auto ma-3"
+    max-width="415">
+    <div v-if="blog.cover_image !== null">
+     <img :src="blog.cover_image" height="160px" class="ma-3"/>
+     </div>
+     <div v-else></div>
+
+      <v-card-title class="justify-center">
         {{ blog.title }}
     </v-card-title>
-    <v-card-subtitle>
+    <v-card-subtitle class="text-center">
     {{blog.description}}
     </v-card-subtitle>
-      <v-card-subtitle>
+
+      <v-card-text >
       Click here to read full article: {{blog.canonical_url}}
-    </v-card-subtitle>
+    </v-card-text>
     </v-card>
   </li>
  
 </ul>
-    <!-- <h1>{{posts}}</h1> -->
-    <!-- <h4 v-for="blog of posts"
-  :key="blog.id"
-  :blog-title="blog.title"
-  :blog-description="blog.description"
-  :blog-link="blog.canonical_url"
-></h4> -->
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-// import axios from 'axios'
 export default {
   name: "Blog",
   components: {},
   data () {
     return {
-      // posts: [],
+
       posts: [],
-      // username: 'joypalumbo'
     }
   },
   created(){
     this.posts=this.$route.params.data
     console.log('hello',this.$route.params.data)
   }
-  // props: {
 
-  // }
-  // beforeMount(){
-  //   this.getData();
-  // },
-  // methods: {
-  //   getData(){
-
-    
-  //   console.log("this", this.info)
-  //   let data = this
-  //   // axios.get(`https://dev.to/api/articles?username={$username}`)
-  //   // try {
-  //    const response =  axios.get('https://dev.to/api/articles?username=joypalumbo')
-  //    console.log("data", response.data.description)
-  //    this.data = response.data
-  //    console.log("data",data)
-  //   }
-    // }
-    // catch (e){
-    //   console.log(e)
-    // }
-
-    // .the(res => {
-    //   console.log("hewwo?", res.data)
-    //   this.info = res.data})
-    // .catch(err => console.log(err))
-  // }
   
 };
 </script>
 
-<style>
-#blog {
-  text-align: center;
-}
-</style>
