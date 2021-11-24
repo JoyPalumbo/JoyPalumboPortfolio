@@ -1,8 +1,11 @@
 <template>
   <div class="about">
     <h1>Joy's Dev.to Blog Posts</h1> 
-     <!-- <v-spacer></v-spacer> -->
-    
+     <v-spacer class="ma-2"></v-spacer>
+    <h4 >The blog posts are pretty old, back from when I was in school in 2019. 
+      <br>
+      But stay tuned, I will be adding new blog posts soon!
+    </h4>
     <ul class="blog">
 
 
