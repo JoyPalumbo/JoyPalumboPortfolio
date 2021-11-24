@@ -50,6 +50,20 @@
             </div>
           </a>
         </v-col>
+             <v-col>
+          <a href="your link here">
+            <div style="font-size: 1rem;">
+              <a
+                class="btn btn-large btn-primary logout"
+                href="https://twitter.com/Kawaii_Coder"
+              >
+                <i class="fa fa-twitter-square" aria-hidden="true">
+                  Twitter</i
+                >
+              </a>
+            </div>
+          </a>
+        </v-col>
       </v-row>
     </v-card>
     <spacer class="ma-2"></spacer>
