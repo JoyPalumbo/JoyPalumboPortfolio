@@ -22,10 +22,14 @@
     <v-card-subtitle class="text-center">
     {{blog.description}}
     </v-card-subtitle>
-
-      <v-card-text >
+<v-btn  class="ma-2"
+      outlined
+      color="pink" :href="blog.canonical_url" target="_blank">
+   Click here to read full article
+</v-btn>
+      <!-- <v-card-text >
       Click here to read full article: {{blog.canonical_url}}
-    </v-card-text>
+    </v-card-text> -->
     </v-card>
   </li>
  
