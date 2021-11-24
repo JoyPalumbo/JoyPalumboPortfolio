@@ -6,7 +6,7 @@
     </h4>
     <spacer class="ma-2"></spacer>
     <v-card class="mx-auto" max-width="450">
-      <h3 class="blue-grey--text text--darken-2">
+      <h3 class="blue-grey--text text--darken-2 ma-2">
         Joy Palumbo
       </h3>
       <v-row>
