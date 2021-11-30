@@ -6,7 +6,8 @@
         Chinese Proverb
       </h4>
       <v-spacer class="ma-6"></v-spacer>
-      <!-- First Card -->
+
+      <!-- First Card - Dive -->
       <v-row class="mb-7" no-gutters>
         <v-col md="6" offset-md="3">
           <v-card class="mx-auto" max-width="700">
@@ -69,12 +70,11 @@
         </v-col>
       </v-row>
 
-      <!-- New Card -->
+      <!-- Second Card - Trivia Apps -->
       <!-- <v-row class="mb-6" no-gutters>
         <v-col md="6" offset-md="3">
           <v-card class="mx-auto" max-width="700">
             <v-row> -->
-
             <!-- <v-row> -->
               <!-- <v-col class="ma-3" md="3" cols="2"> -->
                 <!-- <v-img
@@ -206,7 +206,7 @@
       </v-row> -->
 
      <v-spacer class="ma-6"></v-spacer>
-      <!-- First Card -->
+      <!-- Third Card -->
       <v-row class="mb-7" no-gutters>
         <v-col md="6" offset-md="3">
           <v-card class="mx-auto" max-width="700">
@@ -304,7 +304,7 @@
       </v-row>
 
 <v-spacer class="ma-6"></v-spacer>
-      <!-- First Card -->
+      <!-- Fourth Card -Archery -->
       <v-row class="mb-7" no-gutters>
         <v-col md="6" offset-md="3">
           <v-card class="mx-auto" max-width="700">
@@ -379,6 +379,62 @@
           </v-card>
         </v-col>
       </v-row>
+
+
+
+ <!-- Fifth Card - Memory Game-->
+      <v-row class="mb-7" no-gutters>
+        <v-col md="6" offset-md="3">
+          <v-card class="mx-auto" max-width="700">
+            <v-row>
+              <!-- <v-col class="ma-3" md="3" cols="2"> -->
+                <!-- <v-img
+                  class="rounded"
+                  max-height="350"
+                  max-width="100"
+                  src="../assets/diveBandGig.png"
+                ></v-img> -->
+              <!-- </v-col> -->
+              <v-col class="blue-grey--text text--darken-2">
+                <v-card-text>
+                  <h1>Joy's Cute Cat Memory Game</h1>
+                  <v-spacer class="ma-2"></v-spacer>
+                   <h3>
+                    This is a small, fun project I did.  It is a simple memory game.
+                    It allows users to click on images and try their best to match the matching pictures
+                    in as few steps as possible.  I am currently still working on this project so it is 
+                    not in it's final, complete state.  Check back for updates :)
+                  </h3>
+                </v-card-text>
+              </v-col>
+            </v-row>
+            <h4>Tech Stack</h4>
+            <v-row>
+              <v-col cols="5"></v-col>
+              <v-col cols="5">
+                <v-list class="pa-md-4 mx-lg-auto">
+                  <li class="text-sm-left">React</li>
+                  <li class="text-sm-left">NodeJS</li>
+                     <li class="text-sm-left">CSS</li>
+                </v-list>
+              </v-col>
+              <v-col cols="5">
+
+              </v-col>
+            </v-row>
+
+            <div style="font-size: 1rem;">
+            <a
+                class="btn btn-large btn-primary logout"
+                href="https://joys-memory-game.netlify.app/"
+              >
+                <i class="fa fa-link" left aria-hidden="true"> Memory Game</i>
+              </a>
+            </div>
+          </v-card>
+        </v-col>
+      </v-row>
+
 
 
       <v-row>
