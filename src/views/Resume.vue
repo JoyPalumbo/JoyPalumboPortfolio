@@ -202,6 +202,67 @@
       </v-col>
     </v-row>
 
+    <v-row>
+      <v-col cols="2">
+        <h4 class="blue--text text--lighten-1">Aperio</h4>
+      </v-col>
+      <v-col cols="2">
+        <h5 class="deep-purple--text text--lighten-3">
+          Contract Javascript Developer
+        </h5>
+      </v-col>
+      <v-col cols="6">
+        <h5 class="deep-purple--text text--lighten-3 text-sm-right">
+          October 2024 - Current
+        </h5>
+      </v-col>
+      <v-row>
+        <v-col cols="2"></v-col>
+        <v-col cols="10">
+          <li class="text-sm-left">
+            Take JSON files and display data visually using Javascript, CSS, JQuery and  various libraries including Chart.JS and Plotly to display tables, graphs and pie charts.
+          </li>
+          <li class="text-sm-left">
+            Write documentation to standardize code base and data formats. 
+          </li>
+        </v-col>
+      </v-row>
+    </v-row>
+
+    
+<v-row>
+      <v-col cols="2">
+        <h4 class="blue--text text--lighten-1">Fluz/h4>
+      </v-col>
+      <v-col cols="2">
+        <h5 class="deep-purple--text text--lighten-3">
+          React Native Software Engineer
+        </h5>
+      </v-col>
+      <v-col cols="6">
+        <h5 class="deep-purple--text text--lighten-3 text-sm-right">
+          January  2022-March 2023
+        </h5>
+      </v-col>
+      <v-row>
+        <v-col cols="2"></v-col>
+        <v-col cols="10">
+          <li class="text-sm-left">
+            Utilized JavaScript, TypeScript, and CSS to ensure a seamless and visually appealing user experience.
+          </li>
+          <li class="text-sm-left">
+            Developed FLuz's  newest front end  features, increasing the number of users and increased profits for the company.
+          </li>
+          <li class="text-sm-left">
+            Employed GraphQL to craft APIs for efficient data transmission to and from our Postgres database.
+          </li>
+            <li class="text-sm-left">
+            Applied technical analysis and design principles to contribute to the evolution of the application.
+          </li>
+        </v-col>
+      </v-row>
+    </v-row>
+    
       <v-row>
       <v-col cols="2">
         <h4 class="blue--text text--lighten-1">Pacorini</h4>
@@ -220,16 +281,16 @@
         <v-col cols="2"></v-col>
         <v-col cols="10">
           <li class="text-sm-left">
-            Build APIs in Python to exchange data with Clients
+            Developed Python APIs to facilitate the exchange of data both internally within our application and externally with other companies.
           </li>
           <li class="text-sm-left">
-            Manage SQL Server database
+            Worked closely with North American teams at Pacorini to troubleshoot errors, ensuring seamless integration and alignment of the application with business needs.
           </li>
           <li class="text-sm-left">
-            Fix data errors
+            Managed and updated data within the Microsoft SQL database while also ensuring the upkeep of our Linux Server.
           </li>
             <li class="text-sm-left">
-            Assist employees with technical issues
+            Utilized AWS for storage/databases and Vitrual Machines.
           </li>
         </v-col>
       </v-row>
