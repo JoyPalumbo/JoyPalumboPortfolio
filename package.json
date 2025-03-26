@@ -11,6 +11,7 @@
     "@mdi/js": "^5.8.55",
     "axios": "^0.24.0",
     "core-js": "^3.6.5",
+    "gatsby-source-filesystem": "^5.14.0",
     "vue": "^2.6.11",
     "vue-router": "^3.4.8",
     "vuetify": "^2.2.11"
