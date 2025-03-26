@@ -232,7 +232,7 @@
     
 <v-row>
       <v-col cols="2">
-        <h4 class="blue--text text--lighten-1">Fluz/h4>
+        <h4 class="blue--text text--lighten-1">Fluz</h4>
       </v-col>
       <v-col cols="2">
         <h5 class="deep-purple--text text--lighten-3">
