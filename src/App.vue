@@ -91,10 +91,6 @@ export default {
           url: "/blog",
           props: true
         },
-           {
-          label: "Shop",
-          url: "/shop",
-        },
       ],
     };
   },
